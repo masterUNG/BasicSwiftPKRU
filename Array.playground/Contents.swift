@@ -29,6 +29,27 @@ print("strName1 ==> \(strName1)")
 strName1.append("MasterUNg")
 
 
+// การลบสมาชิค ของ Array
+print("intNumber1 ==> \(intArrayNumber1)")
+intArrayNumber1.remove(at: 2)
+print("intNumber1 = \(intArrayNumber1)")
+
+// นี่คือการเรียงสมาชิกใน Array
+intArrayNumber1.append(10)
+intArrayNumber1.append(21)
+intArrayNumber1.append(56)
+print("intArrayNumber ==> \(intArrayNumber1)")
+intArrayNumber1.sort()
+print("intArrayNumber ใหม่ ==> \(intArrayNumber1)")
+
+//นี่คือการนับ จำนวนสมาชิก
+let intCount = intArrayNumber1.count
+
+
+
+
+
+
 
 
 
